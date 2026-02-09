@@ -97,4 +97,8 @@ run it as a python notebook (ipynb)
 
 ---
 
+## Takeaways
 
+- Closed-form solutions are fast and exact but not scalable
+- Gradient Descent scales well, while producing similar results to closed form
+- Both methods converge to nearly identical solutions for linear regression
