@@ -16,13 +16,6 @@ Hw2 notebook contains the implementation and analysis for **Part B (Questions 7-
 ## Q7: Decision Tree Analysis
 **Objective:** Evaluate the impact of `max_depth` on the `DecisionTreeClassifier` to identify underfitting and overfitting.
 
-### Results
-| Max Depth | Training Accuracy | Test Accuracy | Status |
-| :--- | :--- | :--- | :--- |
-| 1 | 0.667 | 0.644 | **Underfitting**: Model is too simple to capture class differences. |
-| 2 | 0.943 | 0.933 | **Optimal**: High accuracy on both sets with good generalization. |
-| 3 | 0.971 | 1.000 | **Highly Specific**: Approaches perfect classification for this split. |
-
 **Discussion:** Increasing depth allows the tree to create more specific rules. At `max_depth=1`, the model suffers from high bias (underfitting). As depth increases, the model complexity matches the data better, though excessive depth on noisier datasets can lead to high variance (overfitting).
 
 ---
